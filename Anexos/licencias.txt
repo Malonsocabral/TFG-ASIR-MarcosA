@@ -1,0 +1,30 @@
+# 📜 LICENCIAS DE SOFTWARE UTILIZADO
+
+1. pfSense CE (BSD 2-Clause)
+   - Uso permitido: Libre, incluyendo modificaciones
+   - Requisitos: Mantener aviso de copyright original
+   - Enlace: https://www.pfsense.org/license/
+
+2. Nextcloud (AGPLv3)
+   - Modificaciones deben publicarse bajo misma licencia
+   - Incluye cláusula de apertura de código derivado
+   - Enlace: https://nextcloud.com/terms/
+
+3. Ansible (GPLv3)
+   - Playbooks creados por el usuario NO están afectados
+   - Requiere distribuir código fuente si se modifica Ansible
+   - Enlace: https://www.gnu.org/licenses/gpl-3.0
+
+4. Docker (Apache 2.0)
+   - Permite uso comercial sin royalties
+   - Exige mención de cambios significativos
+   - Enlace: https://www.docker.com/legal/
+
+5. Ubuntu Server (GPLv3 + Licencias múltiples)
+   - Componentes pueden tener licencias distintas
+   - Ver detalles con: `apt show <paquete>`
+
+----------------------------------------
+⚠️ ATENCIÓN: Este proyecto combina software con licencias compatibles, pero:
+- No distribuir imágenes Docker modificadas de Nextcloud sin publicar el código fuente
+- Incluir archivo LICENSE en cualquier redistribución
