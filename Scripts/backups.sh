@@ -1,4 +1,5 @@
-#!/bin/bash  # Intérprete Bash
+#!/bin/bash  
+# Intérprete Bash
 
 # CONFIGURACIÓN BÁSICA
 REPO="/mnt/backups/borg_nextcloud"  # Carpeta única de backup Borg (repositorio)
