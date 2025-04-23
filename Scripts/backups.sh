@@ -5,7 +5,7 @@ REPO="/mnt/backups/borg_nextcloud"  # Carpeta única de backup Borg (repositorio
 SOURCE="/var/lib/docker/volumes/nextcloud_data"  # Directorio que quiero respaldar
 LOG="/var/log/nextcloud_backup.log"  # Archivo de log para registrar eventos
 SCRIPT_PATH="$(realpath "$0")"  # Ruta absoluta del script, para añadirlo a cron
-PASSPHRASE="tu_clave_secreta"  # Clave para cifrar el repositorio (guárdala segura)
+PASSPHRASE="ola"  # Clave para cifrar el repositorio (guárdala segura)
 
 export BORG_REPO=$REPO  # Indico a Borg dónde está el repositorio
 export BORG_PASSPHRASE=$PASSPHRASE  # Le paso la clave para el cifrado
